@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+* {
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  background: rgb(5, 2, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 2, 37, 1) 0%,
+    rgb(91, 26, 138) 30%,
+    rgb(21, 113, 88) 96%
+  );
+  height: 100vh;
+}
+.container{
+    /* border: 1px red solid; */
+    margin:1.2vh 10vw ;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
+}
+.header h1{
+    font-family: 'Rubik Vinyl', system-ui;
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+    letter-spacing: .4vw;
+    margin-bottom: 2.4vh ;
+}
+main{
+    /* border: 1px solid red; */
+}
+.card {
+padding: 2.4rem;
+background: linear-gradient(
+    to right,
+    rgba(93, 53, 105, 0.8) 40%,
+    rgba(128, 234, 211, 0.8)
+  );
+  border-radius: 5px;
+  box-shadow: 0px 10px 29px -6px rgba(0,0,0,0.75);
+margin-bottom: 4rem;
+
+}
+.card .img-div {
+height: 100%;
+width: 30%;
+float: left;
+margin-right: 1.6rem;
+transition: .5s all ease;
+cursor: pointer;
+}
+
+.card .img-div:hover{
+  height: 100%;
+  width: 35%;
+  }
+
+.card .img-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+.content-div{
+  width: 63%;
+float: right;
+transition: .5s all ease;
+
+}
+
+
+.card .img-div:hover .content-div{
+  width: 30%;
+}
+
+.card .content-div h3{
+  font-family: ;
+color: #F4A361;
+font-size: 2.6rem;
+font-family: 'EB Garamond', serif;
+}
+
+.card .content-div p{
+  color: #fff;
+font-size: 1.6rem;
+font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+.card::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.card .content-div a{
+  background-color: #FF7F4F;
+  border: none;
+  outline: none;
+  padding: 2.4rem 6rem;
+  font-size: 1.6rem ;
+  border-radius: 6px;
+  margin-top:1.5rem ;
+  float:right;
+  transition: .4s all ease;
+  cursor: pointer;
+  color:white;
+  text-decoration: none;
+  }
+  
+  .card .content-div a:hover{
+    padding: 3.5rem 8rem;
+  }
+  
+  
+
+/* 
+.card .content-div button{
+background-color: #FF7F4F;
+border: none;
+outline: none;
+padding: 2.4rem 6rem;
+font-size: 1.6rem ;
+border-radius: 6px;
+margin-top:1.5rem ;
+float:right;
+transition: .4s all ease;
+cursor: pointer;
+
+}
+
+.card .content-div button:hover{
+  padding: 3.5rem 8rem;
+}
+
+.card .content-div button a{
+color:white;
+  text-decoration: none;
+} */
