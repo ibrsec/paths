@@ -17,7 +17,7 @@
     <a href="https://github.com/ibrsec/paths"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/paths/">View Demo</a>
+    <a href="https://paths-iota.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/ibrsec/paths/issues">Report Bug</a>
     ·
@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![IT Paths](./images/project-gif.gif)](https://ibrsec.github.io/paths/)
+[![IT Paths](./images/project-gif.gif)](https://paths-iota.vercel.app/)
 
 <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ad? -->
 <!--  -->
